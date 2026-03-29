@@ -3,6 +3,8 @@
 
 An AI-powered local discovery agent built with **Google ADK** and the **Google Maps Grounding Lite MCP server**. Ask it to find places, check the weather, or plan routes — it retrieves live, grounded data from Google Maps before answering.
 
+<img width="1615" height="845" alt="track2projectdemo" src="https://github.com/user-attachments/assets/8f3316ea-da99-484b-8798-c34555c224da" />
+
 ---
 
 ## Architecture
