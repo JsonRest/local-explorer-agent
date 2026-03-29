@@ -1,0 +1,25 @@
+# Environment variables — never commit
+local_explorer/.env
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# uv
+.uv/
+uv.lock
+
+# ADK
+.adk/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

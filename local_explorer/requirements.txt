@@ -1,0 +1,13 @@
+# Local Explorer Agent - Python dependencies
+#
+# Primary dependency management is via pyproject.toml + uv:
+#   uv sync          → install all dependencies
+#   uv run adk web   → run the agent
+#
+# This file is kept for Cloud Run build compatibility.
+# `adk deploy cloud_run` uses requirements.txt during the build process.
+
+google-adk>=1.0.0
+python-dotenv>=1.0.0
+google-auth>=2.0.0
+google-auth-httplib2>=0.2.0
